@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Content with Radio Buttons</title>
+  <style>
+    /* Hide the radio buttons */
+    
+
+    /* Styling the labels to act as buttons */
+    label {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 5px;
+    }
+
+    label:hover {
+      background-color: #0056b3;
+    }
+
+    /* Initially hide all sections */
+    .content-section {
+      display: none;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border: 1px solid #ddd;
+    }
+
+    /* Show the corresponding section when the radio button is checked */
+    #option1:checked ~ .content1,
+    #option2:checked ~ .content2 {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Toggle Content with Radio Buttons</h1>
+
+  <!-- Radio buttons -->
+  <input type="radio" id="option1" name="toggle">
+  <label for="option1">Show Section 1</label>
+  <input type="radio" id="option2" name="toggle">
+
+  <!-- Labels for the radio buttons -->
+  
+  <label for="option2">Show Section 2</label>
+
+  <!-- Hidden sections -->
+  <div class="content-section content1">
+    <h2>Section 1</h2>
+    <p>This is the content for Section 1, revealed by clicking the first button.</p>
+  </div>
+
+  <div class="content-section content2">
+    <h2>Section 2</h2>
+    <p>This is the content for Section 2, revealed by clicking the second button.</p>
+  </div>
+</body>
+</html>

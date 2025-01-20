@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Sliding Carousel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .carousel {
+      position: relative;
+      width: 80%;
+      max-width: 800px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .carousel-images {
+      display: flex;
+      animation: slide 10s infinite;
+    }
+
+    .carousel-images img {
+      width: 100%;
+      flex-shrink: 0;
+    }
+
+    @keyframes slide {
+      0%, 20% { transform: translateX(0); }
+      25%, 40% { transform: translateX(-100%); }
+      45%, 70% { transform: translateX(-200%); }
+      75%, 100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel">
+    <div class="carousel-images">
+      <img src="https://via.placeholder.com/800x400?text=Image+1" alt="Image 1">
+      <img src="https://via.placeholder.com/800x400?text=Image+2" alt="Image 2">
+      <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3">
+    </div>
+  </div>
+</body>
+</html>
