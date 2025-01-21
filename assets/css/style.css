@@ -12,7 +12,7 @@
      bottom:0;
      background-color : white;
  }
- ul{
+ .nav-list-1,.nav-list-2{
      display:flex;
  }
  ul li{
@@ -50,7 +50,7 @@
      height:25px;
  }
  .user-profile-icon{
-     margin-left:100px;
+     margin-left:10px;
  }
  .wishlist,.cart{
      margin-left:20px;
@@ -261,4 +261,43 @@
      position:relative;
      left:90px;
  }
- 
+ footer{
+     width:99.5vw;
+     height:400px;
+     position:absolute;
+     left:0;
+     right:0;
+     margin-top:1900px;
+     border:2px solid red;
+     display:flex;
+     justify-content:space-around;
+     padding-top:50px;
+ }
+ .quicklinks,.customer-service,.social-media,.contact-info{
+     width:220px;
+     height:300px;
+     border:2px solid red;
+ }
+ footer div>h4{
+     text-align:center;
+     font-weight:bold;
+ }
+ footer div>ul li{
+     list-style-type:disc;
+ }
+ .footer-quicklink-list{
+     flex:none;
+ }
+ .footer-quicklink-list li{
+     margin-left:40px;
+ }
+ .footer-quicklink-list li a:hover{
+     text-decoration:underline;
+     text-underline-offset:2px;
+ }
+.footer-customer-list li{
+    margin-left:23px;
+}
+.footer-social-list{
+    margin-left:38px;
+}
