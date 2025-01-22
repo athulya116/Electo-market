@@ -129,7 +129,7 @@
  }
  .section3{
      width:100vw;
-     height:1850px;
+     height:2200px;
      right:0;
      position:absolute;
      top:712px;
@@ -146,7 +146,7 @@
  }
  .section3-content{
      width:100vw;
-     height:auto;
+     height:400px;
      display: flex;
      justify-content: space-around;
     
@@ -174,6 +174,9 @@
  .card:hover{
      box-shadow: 1px 1px 9px rgb(190, 187, 187);
  }
+ .section5-content .card:hover {
+    box-shadow: 1px 1px 9px rgb(190, 187, 187) !important;
+}
  .card-img img{
      background-size: cover;
      width:150px;
@@ -231,6 +234,7 @@
      position:relative;
      top:1px;
  }
+
  .section4-content{
      position:relative;
      top:100px;
@@ -241,21 +245,19 @@
  }
  .section5-content{
      position:relative;
-     top:1700px;
+     top:200px;
      width:100vw;
      height:auto;
      display: flex;
      justify-content: space-around;
-     z-index:-1
  }
  .section6-content{
      position:relative;
-     top:1800px;
+     top:300px;
      width:100vw;
      height:auto;
      display: flex;
      justify-content: space-around;
-     z-index:-1;
  }
  .user{
      position:relative;
@@ -267,16 +269,15 @@
      position:absolute;
      left:0;
      right:0;
-     margin-top:1900px;
-     border:2px solid red;
+     top:2900px;
      display:flex;
      justify-content:space-around;
      padding-top:50px;
+     background-color:#d3d3d3;
  }
- .quicklinks,.customer-service,.social-media,.contact-info{
+ .quicklinks,.customer-service,.social-media{
      width:220px;
      height:300px;
-     border:2px solid red;
  }
  footer div>h4{
      text-align:center;
@@ -291,7 +292,10 @@
  .footer-quicklink-list li{
      margin-left:40px;
  }
- .footer-quicklink-list li a:hover{
+ .footer-quicklink-list li a:hover,
+ .footer-social-list li a:hover,
+ .footer-customer-list li a:hover,
+ .footer-contact-list li a:hover{
      text-decoration:underline;
      text-underline-offset:2px;
  }
@@ -301,3 +305,41 @@
 .footer-social-list{
     margin-left:38px;
 }
+.contact-info{
+    width:280px;
+    height:300px;
+    margin-left:-60px;
+}
+footer .contact-info h4{
+    text-align:left;
+    margin-left:24px;
+}
+.best-selling-smartphones{
+    margin-bottom:50px;
+    width:100vw;
+    height:80px;
+    border:2px solid pink;
+}
+.best-selling-laptops {
+    margin-bottom:-60px;
+    width: 100vw;
+    height: 80px;
+    border: 2px solid pink;
+}
+.best-selling-smartphones h3,
+.best-selling-laptops h3,
+.best-selling-tablets h3,
+.best-selling-smartwatches h3{
+    margin-left: 180px;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+.best-selling-tablets{
+    margin-top:160px;
+    width:100vw;
+    height:80px;
+    border:2px solid green;
+    margin-bottom:-140px;
+}
+.best-sell

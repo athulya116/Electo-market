@@ -1,0 +1,46 @@
+<!-- ====== Trending Tablet Section ====== -->
+    <section class="section5">
+    <div class="section5-content">
+        <div class="card galaxy-s24-ultra">
+            <div class="card-img"><img src="assets\images\tablets\Galaxy-tabS9.jpg" alt="galaxy-s24-ultra"></div>
+            <div class="card-description">
+                <h4>Galaxy Tab S9 Ultra</h4>
+                <h5 class="feature">512 GB - Black</h5>
+                <h4 class="price"><img src="assets\icons\indian-rupee-sign-solid.svg" alt=""> 1,19,900</h4>
+                <a href="#wishlist" class="wishlist-icon"><img src="assets\icons\heart-solid.svg" alt="wishlist" onclick="alert('Item added to Wishlist')"></a>
+                <button onclick="alert('Item added to cart')" class="cart-button">Add to cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="assets\images\tablets\iPad-10.2.avif" alt="iphone-16-pro-max.avif"></div>
+            <div class="card-description">
+                <h4>iPad 10.2</h4>
+                <h5 class="feature">32 GB - Space Gray</h5>
+                <h4 class="price"><img src="assets\icons\indian-rupee-sign-solid.svg" alt=""> 29,990</h4>
+                <a href="#wishlist" class="wishlist-icon"><img src="assets\icons\heart-solid.svg" alt="wishlist" onclick="alert('Item added to Wishlist')"></a>
+                <button onclick="alert('Item added to cart')" class="cart-button">Add to cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="assets\images\tablets\Galaxy-tabA9-silver.jpg" alt="galaxy-s22-ultra"></div>
+            <div class="card-description">
+                <h4>Galaxy S22 Ultra 5G</h4>
+                <h5 class="feature">128 GB - Green - Unlocked</h5>
+                <h4 class="price"><img src="assets\icons\indian-rupee-sign-solid.svg" alt=""> 39,999</h4>
+                <a href="#wishlist" class="wishlist-icon"><img src="assets\icons\heart-solid.svg" alt="wishlist" onclick="alert('Item added to Wishlist')"></a>
+                <button onclick="alert('Item added to cart')" class="cart-button">Add to cart</button>
+            </div>
+        </div>
+        <div class="card iphone-16-pro-max">
+            <div class="card-img"><img src="assets\images\tablets\Galaxy-tabA9.avif" alt="iphone 16 pro max"></div>
+            <div class="card-description">
+                <h4>iPhone 16 Pro Max</h4>
+                <h5 class="feature">1024 GB Storage - 8 GB RAM</h5>
+                <h4 class="price"><img src="assets\icons\indian-rupee-sign-solid.svg" alt=""> 1,27,900</h4>
+                <a href="#wishlist" class="wishlist-icon"><img src="assets\icons\heart-solid.svg" alt="wishlist" onclick="alert('Item added to Wishlist')"></a>
+                <button onclick="alert('Item added to cart')" class="cart-button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- ====== End of Trending Tablet Section ====== -->

@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\laptop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:laptop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\demos\\section5||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:demos\\section5||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\payment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:payment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\wishlist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wishlist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\smartwatch.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:smartwatch.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\tablet.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tablet.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\smartphone.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:smartphone.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\success.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:success.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\laptop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:laptop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,25 +61,104 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "assets\\css\\style.css",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\assets\\css\\style.css",
+              "RelativeToolTip": "assets\\css\\style.css",
+              "ViewState": "AgIAADUBAAAAAAAAAAAAAEMBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-21T13:34:25.492Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "section5",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\demos\\section5",
+              "RelativeDocumentMoniker": "demos\\section5",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\demos\\section5",
+              "RelativeToolTip": "demos\\section5",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-22T04:12:22.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "success.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\success.html",
+              "RelativeDocumentMoniker": "success.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\success.html",
+              "RelativeToolTip": "success.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-22T02:57:27.052Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "laptop.html",
-              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\laptop.html",
-              "RelativeDocumentMoniker": "laptop.html",
-              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\laptop.html",
-              "RelativeToolTip": "laptop.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "wishlist.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\wishlist.html",
+              "RelativeDocumentMoniker": "wishlist.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\wishlist.html",
+              "RelativeToolTip": "wishlist.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-21T08:17:02.416Z",
+              "WhenOpened": "2025-01-21T14:08:37.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "smartwatch.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\smartwatch.html",
+              "RelativeDocumentMoniker": "smartwatch.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\smartwatch.html",
+              "RelativeToolTip": "smartwatch.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T13:28:27.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tablet.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\tablet.html",
+              "RelativeDocumentMoniker": "tablet.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\tablet.html",
+              "RelativeToolTip": "tablet.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T13:28:16.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "smartphone.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\smartphone.html",
+              "RelativeDocumentMoniker": "smartphone.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\smartphone.html",
+              "RelativeToolTip": "smartphone.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T13:28:05.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "cart.html",
               "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\cart.html",
               "RelativeDocumentMoniker": "cart.html",
@@ -61,6 +172,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAswKMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T08:16:58.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "payment.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\payment.html",
+              "RelativeDocumentMoniker": "payment.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\payment.html",
+              "RelativeToolTip": "payment.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T14:44:20.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "contact.html",
               "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\contact.html",
               "RelativeDocumentMoniker": "contact.html",
@@ -68,21 +205,19 @@
               "RelativeToolTip": "contact.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-21T08:16:59.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T08:16:59.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "laptop.html",
+              "DocumentMoniker": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\laptop.html",
+              "RelativeDocumentMoniker": "laptop.html",
+              "ToolTip": "C:\\Users\\User17\\Desktop\\Athulya\\html\\electro market\\laptop.html",
+              "RelativeToolTip": "laptop.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-21T08:16:58.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T08:17:02.416Z"
             }
           ]
         }
