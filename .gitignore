@@ -6,3 +6,9 @@
 /.vs/electro market/FileContentIndex
 /.vs/electro market/v17/ipch/AutoPCH/b52327746c8a70b2
 /.vs/electro market/v17/.wsuo
+*.db-wal
+*.opendb
+/.vs/electro market/v17/DocumentLayout.json
+*.db
+*.db-shm
+/.vs/electro market/v17/DocumentLayout.backup.json
