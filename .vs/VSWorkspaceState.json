@@ -3,8 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\icons"
+    "\\assets\\images",
+    "\\assets\\images\\service"
   ],
-  "SelectedNode": "\\service.html",
+  "SelectedNode": "\\assets\\images\\service",
   "PreviewInSolutionExplorer": false
 }

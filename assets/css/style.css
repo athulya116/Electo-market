@@ -14,6 +14,12 @@
      /*z-index:10;*/
 
  }
+ nav hr{
+     margin-top:-16px;
+     height:3px;
+     background-color:gray;
+     border:none;
+ }
  .nav-list-1,.nav-list-2{
      display:flex;
  }
@@ -134,7 +140,7 @@
      height:2200px;
      right:0;
      position:absolute;
-     top:712px;
+     top:710px;
      left:0;
      z-index: -1;
      background-color: #f5f5f5;
@@ -345,7 +351,6 @@ footer .contact-info h4{
     margin-top:240px;
     width:100vw;
     height:80px;
-    border:2px solid green;
     position:relative;
     margin-bottom:-260px;
 }
@@ -455,7 +460,6 @@ footer .contact-info h4{
     margin-top:120px;
     width:94%;
     height:350px;
-    border:2px solid crimson;
     padding-top:30px;
     padding-left:80px;
     z-index:-1;
@@ -464,7 +468,6 @@ footer .contact-info h4{
 .service-section1-content {
     width: 45vw;
     height: 300px;
-    border: 2px solid red;
     float: left;
     margin-left: 20px;
     border-radius: 20px;
@@ -472,7 +475,6 @@ footer .contact-info h4{
 .service-section1-img {
     width: 30vw;
     height: 300px;
-    border: 2px solid green;
     margin-left: 800px;
     border-radius: 20px;
 }
@@ -483,34 +485,40 @@ footer .contact-info h4{
     margin-top: 100px;
     width: 98%;
     height: 350px;
-    border: 2px solid red;
     padding-top: 30px;
     padding-left: 20px;
     z-index: -1;
+  
 }
 
 .service-section2-img {
     width: 30vw;
     height: 300px;
-    border: 2px solid green;
     margin-left: 80px;
     float: left;
     border-radius: 20px;
+    position:relative;
+    top:20px;
 }
 .service-section2-content {
     width: 45vw;
     height: 300px;
-    border: 2px solid red;
     margin-left: 650px;
     border-radius: 20px;
 }
-.service-section1,.service-section2 div h2{
+.service-section1 div h2{
     text-align:center;
     font-weight:bold;
 }
-.service-section1 div img{
-    background-size:cover;
-    border-radius:18px;
+.service-section2 div h2 {
+    text-align: center;
+    font-weight: bold;
+    position:relative;
+    top:25px;
+}
+.service-section1 div img {
+    background-size: cover;
+    border-radius: 18px;
 }
 .service-section2 div img{
     background-size:cover;
@@ -526,17 +534,41 @@ footer .contact-info h4{
     margin-left:40px;
     margin-right:40px;
 }
-.service-section2-content p {
+    .service-section2-content p {
         margin-left: 40px;
         margin-right: 40px;
+       
+    }
+.service-footer{
+    position:relative;
+  top:100px;
 }
-
-
-
-
-
 .contact-section1{
-    width:100vw;
-    height:400px;
-    border:2px solid pink;
+    width:89vw;
+    height:500px;
+    position:relative;
+    left:-10px;
+    z-index:-1;
+    top:115px;
+    padding-top:50px;
+    padding-left:155px;
+}
+.contact-section1-info{
+    width:43%;
+    height:450px;
+    border:2px solid crimson;
+    float:left;
+
+}
+.contact-info-form{
+    width:43%;
+    height:450px;
+    border:2px solid crimson;
+    margin-left:600px;
+}
+.contact-section1 div h2{
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+
 }
