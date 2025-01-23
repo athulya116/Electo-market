@@ -11,6 +11,8 @@
      right:0;
      bottom:0;
      background-color : white;
+     /*z-index:10;*/
+
  }
  .nav-list-1,.nav-list-2{
      display:flex;
@@ -318,13 +320,11 @@ footer .contact-info h4{
     margin-bottom:50px;
     width:100vw;
     height:80px;
-    border:2px solid pink;
 }
 .best-selling-laptops {
     margin-bottom:-60px;
     width: 100vw;
     height: 80px;
-    border: 2px solid pink;
 }
 .best-selling-smartphones h3,
 .best-selling-laptops h3,
@@ -339,7 +339,6 @@ footer .contact-info h4{
     margin-top:160px;
     width:100vw;
     height:80px;
-    border:2px solid green;
     margin-bottom:-140px;
 }
 .best-selling-smartwatches{
@@ -350,18 +349,18 @@ footer .contact-info h4{
     position:relative;
     margin-bottom:-260px;
 }
-.about-section1{
-    width:99vw;
-    height:350px;
-    position:relative;
-    top:80px;
-    left:0;
-    right:0;
-    background-color:gray;
-    text-align:center;
-    line-height:25px;
-    font-family:'Times New Roman', Times, serif;
-    color:#f5f5f5;
+.about-section1 {
+    width: 99vw;
+    height: 350px;
+    position: relative;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f5f5f5;
     z-index:-1;
 }
 .about-section1 h1{
@@ -376,27 +375,29 @@ footer .contact-info h4{
     font-size:25px;
     font-weight:bold;
 }
-.about-section2{
-    position:relative;
-    width:99vw;
-    height:350px;
-    left:0;
-    right:0;
-    top:150px;
-    background-color:#a9a9a9;
+.about-section2 {
+    position: relative;
+    width: 99vw;
+    height: 350px;
+    left: 0;
+    right: 0;
+    top: 150px;
+    background-color: #a9a9a9;
+    z-index: -1;
 }
-.about-section2-div1,.about-section3-div1{
-    width:65vw;
-    height:250px;
-    position:relative;
-    top:50px;
-    left:130px;
-    padding-left:100px;
-    padding-right:100px;
-    font-family:'Times New Roman', Times, serif;
-    color:black;
+.about-section2-div1, .about-section3-div1 {
+    width: 65vw;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 130px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    z-index: -1;
 }
-.about-section2-div1 h2,.about-section3-div1 h3{
+.about-section2-div1 h2,.about-section3-div1 h3,.about-section4-div1 h2{
     font-size:30px;
     font-weight:bold;
 }
@@ -404,14 +405,15 @@ footer .contact-info h4{
     font-size:20px;
     font-weight:bold;
 }
-.about-section3{
-    width:99vw;
-    height:350px;
-    position:relative;
-    left:0;
-    right:0;
-    top:250px;
-    background-color:gray;
+.about-section3 {
+    width: 99vw;
+    height: 350px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 250px;
+    background-color: gray;
+    z-index:-1;
 }
 .about-section3-div1 {
     color: #f5f5f5;
@@ -426,6 +428,31 @@ footer .contact-info h4{
     left: 0;
     right: 0;
     top: 350px;
-    border: 2px solid green;
     background-color: #a9a9a9;
+    z-index: -1;
+}
+.about-section4-div1{
+    padding-top:40px;
+}
+.about-section4-div1 h4{
+    position:relative;
+    top:20px;
+}
+
+.about-footer{
+   position:relative;
+   top:450px;
+}
+.searchicon{
+    position:relative;
+    top:5px;
+    right:35px;
+}
+.service-section1{
+    width:100vw;
+    height:350px;
+    border:2px solid green;
+    position:relative;
+    top:100px;
+    background-color:red;
 }
