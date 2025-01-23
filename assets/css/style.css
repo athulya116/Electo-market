@@ -449,10 +449,94 @@ footer .contact-info h4{
     right:35px;
 }
 .service-section1{
-    width:100vw;
-    height:350px;
-    border:2px solid green;
     position:relative;
-    top:100px;
-    background-color:red;
+    left:-5px;
+    right:0;
+    margin-top:120px;
+    width:94%;
+    height:350px;
+    border:2px solid crimson;
+    padding-top:30px;
+    padding-left:80px;
+    z-index:-1;
+   
+}
+.service-section1-content {
+    width: 45vw;
+    height: 300px;
+    border: 2px solid red;
+    float: left;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.service-section1-img {
+    width: 30vw;
+    height: 300px;
+    border: 2px solid green;
+    margin-left: 800px;
+    border-radius: 20px;
+}
+.service-section2 {
+    position: relative;
+    left: -5px;
+    right: 0;
+    margin-top: 100px;
+    width: 98%;
+    height: 350px;
+    border: 2px solid red;
+    padding-top: 30px;
+    padding-left: 20px;
+    z-index: -1;
+}
+
+.service-section2-img {
+    width: 30vw;
+    height: 300px;
+    border: 2px solid green;
+    margin-left: 80px;
+    float: left;
+    border-radius: 20px;
+}
+.service-section2-content {
+    width: 45vw;
+    height: 300px;
+    border: 2px solid red;
+    margin-left: 650px;
+    border-radius: 20px;
+}
+.service-section1,.service-section2 div h2{
+    text-align:center;
+    font-weight:bold;
+}
+.service-section1 div img{
+    background-size:cover;
+    border-radius:18px;
+}
+.service-section2 div img{
+    background-size:cover;
+    border-radius:18px;
+}
+.service-section1-content,.service-section2-content{
+    background-color:gray;
+    color:white;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.service-section1-content p{
+    margin-left:40px;
+    margin-right:40px;
+}
+.service-section2-content p {
+        margin-left: 40px;
+        margin-right: 40px;
+}
+
+
+
+
+
+.contact-section1{
+    width:100vw;
+    height:400px;
+    border:2px solid pink;
 }
