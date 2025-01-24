@@ -549,26 +549,89 @@ footer .contact-info h4{
     position:relative;
     left:-10px;
     z-index:-1;
-    top:115px;
+    top:190px;
     padding-top:50px;
     padding-left:155px;
 }
-.contact-section1-info{
-    width:43%;
-    height:450px;
-    border:2px solid crimson;
-    float:left;
-
+.contact-section1-info {
+    width: 43%;
+    height: 450px;
+    float: left;
+    border-radius: 10px;
+    background-color: darkgray;
 }
-.contact-info-form{
-    width:43%;
-    height:450px;
-    border:2px solid crimson;
-    margin-left:600px;
+.contact-info-form {
+    width: 38%;
+    height: 415px;
+    margin-top: 0px;
+    margin-left: 600px;
+    border-radius: 10px;
+    background-color: darkgray;
+    padding-left: 100px;
+    padding-top: 30px;
+   
 }
 .contact-section1 div h2{
     text-align:center;
     font-weight:bold;
     font-size:30px;
+   
 
 }
+.contact-footer{
+    position:relative;
+    top:250px;
+}
+.contact-us-info{
+    width:70%;
+    height:400px;
+    margin-left:80px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+   
+    
+}
+.contact-us-info a{
+    text-decoration:none;
+    margin-left:20px;
+}
+.contact-us-info .address{
+    margin-left:20px;
+}
+.address{
+    display:inline;
+    
+}
+.feel-free-contact{
+    margin-left:30px;
+    margin-top:-10px;
+}
+.contact-us-info a:link{
+    color:black;
+}
+.lastname{
+    margin-left:30px;
+}
+.input-email,.message{
+    width:380px;
+}
+.contact-info-form h2{
+    margin-right:70px;
+}
+.contact-info-form form .firstname,.lastname,.input-email{
+    height:30px;
+}
+.message{
+    height:80px;
+}
+.contact-submit-button{
+    margin-left:160px;
+    background-color:limegreen;
+    color:white;
+    height:25px;
+    width:70px;
+    border:none;
+    border-radius:3px;
+}
+
