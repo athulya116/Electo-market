@@ -6,11 +6,48 @@
     <title>Smartwatch</title>
     <link rel="stylesheet" href="assets\css\style.css" />
 </head>
-<body>
+<body class="userlogin-body">
     <section class="userlogin-section1">
-        <br /><br /><br /><br /> <br /><br />
-        <a href="index.html"><h5 >Home </h5></a> > 
-        <h5>  Login </h5><br />
+        <div class="userlogin-section1-div1"><img src="#logo" alt="logo" /></div>
+        <br /><br /><br />
+        <div class="userlogin-section1-home" >
+            <a href="index.html"><h5>Home </h5></a> >
+            <h5>  Login </h5><br />
+        </div>
+    </section>
+    <section class="userlogin-section2">
+        <h2>Login</h2> 
+        <div  class="loginform">
+            <center>
+                <br /><br />
+                <form>
+                    <input class="em-input" type="email" placeholder="Email" /> <br /> <br />
+                    <input class="pwd-input" type="password" placeholder="password" /> <br /> <br />
+
+                    <div id="remember-me">
+                        <input type="checkbox" />
+                        <label for="remember-me">Remember me</label>
+                        <a class="forgot-password" href="userlogin.html">forgot password?</a>
+
+                    </div>
+                </form>
+                <br />
+                <a href="index.html"><button class="login-button" type="submit" onclick="alert('login success')">Login</button></a> <br />
+
+                <br /><br />
+                <span class="or">OR</span> <br /> <br />
+                <div class="google">
+                    <img src="assets\icons\google.png" alt="Google" width="20" height="20" /><h5 class="google-text">Continue with Google</h5>
+                </div> <br />
+                <div class="apple">
+                    <img src="assets\icons\apple-logo.png" alt="Apple" width="20" height="20" /><h5 class="apple-text">Continue with Apple</h5>
+                </div> <br />
+                <div class="new-user">
+                    <span>New user?</span>
+                    <a href="userregistration.html">Sign Up</a>
+                </div>
+            </center>
+        </div>
     </section>
 </body>
 </html>

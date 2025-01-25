@@ -22,9 +22,10 @@
                         <img class="searchicon" src="assets\icons\magnifying-glass-solid.svg" width="16" height="16" alt="search" />
                     </form>
                 </li>
-                <li> <img class="user-profile-icon user" src="assets\icons\user-solid.svg" alt="userprofile" width="25px" height="25px"></li>
-                <li><img class="wishlist user" src="assets\icons\heart-solid.svg" alt="wishlist" width="25px" height="25px"></li>
-                <li><img class="cart user" src="assets\icons\cart-shopping-solid.svg" alt="cart" width="25px" height="25px"></li>
+                <li> <a href="userlogin.html"><img class="user-profile-icon user" src="assets\icons\user-solid.svg" alt="userprofile" width="25" height="25">
+                     </a></li>
+                <li><img class="wishlist user" src="assets\icons\heart-solid.svg" alt="wishlist" width="25" height="25"></li>
+                <li><img class="cart user" src="assets\icons\cart-shopping-solid.svg" alt="cart" width="25" height="25"></li>
             </ul>
             <ul class="nav-list-2">
                 <li class="trending nav-item-bottom"><a href="index.html#trending"><h5>Trending</h5></a></li>
@@ -32,7 +33,22 @@
                 <li class="laptop nav-item-bottom"><a href="laptop.html"><h5>Laptops</h5></a></li>
                 <li class="tablet nav-item-bottom"><a href="tablet.html"><h5>Tablets</h5></a></li>
                 <li class="smart-watch nav-item-bottom"><a href="smartwatch.html"><h5>Smartwatches</h5></a></li>
-                <li class="more nav-item-bottom"><a href="#more"><h5>More</h5></a></li>
+                <li class="more nav-item-bottom">
+                    <a href="#more">
+                        <select class="more">
+                            <option><h5>More</h5></option>
+                            <option>Fridge</option>
+                            <option>Ear Buds</option>
+                            <option>Washing Machine</option>
+                            <option>Head Phone</option>
+                            <option>Air Conditioner</option>
+                            <option>Bluetooth Speaker</option>
+                            <option>Smart Tv</option>
+                            <option>Gaming Console</option>
+                            <option>Camera</option>
+                        </select>
+                    </a>
+                </li>
             </ul>
             <hr />
         </nav>
@@ -45,7 +61,7 @@
             <div class="contact-us-info">
                 <h5 class="feel-free-contact">Feel free to use the form or drop us an email.</h5> <br />
                 <img src="assets\icons\phone-solid.svg" width="13" height="13" alt="call" />
-                <a href="tel:919562456118">9562456118</a><br />
+                <a href="tel:9562456118">9562456118</a> <br />
                 <img src="assets\icons\envelope-solid.svg" width="13" height="13" alt="mail" />
                 <a href="mailto:athulyaathu9562@gmail.com"> info@electromarket.com</a> <br /> <br />
                 <img src="assets\icons\location-dot-solid.svg" width="13" height="13" alt="location" />
@@ -60,17 +76,12 @@
         <div class="contact-info-form">
             <h2>Leave Us a Message</h2><br /><br />
             <form>
-                <label for="firstname"></label>
                 <input type="text" class="firstname" placeholder="First Name" />
-                <label for="lastname"></label>
                 <input type="text" class="lastname" placeholder="Last Name" /> <br />  <br />
-                <label for="input-email"></label>
                 <input type="email" class="input-email" placeholder="example@gmail.com" /> <br /> <br />
-                <label for="message"></label>
                 <input type="text" class="message" placeholder="Type your message" /> <br /> <br />
-                <button class="contact-submit-button" onclick="alert('Thank you for reaching out! Your message has been successfully submitted.')">Submit</button>
-            
             </form>
+            <button class="contact-submit-button" onclick="alert('Thank you for reaching out! Your message has been successfully submitted.')">Submit</button>
         </div>
     </section>
     <!-- ====== End of Section1 ======-->

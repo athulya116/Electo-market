@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch</title>
+    <style>
+        .wishlist {
+            margin: 20px;
+        }
+
+        .wishlist-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .delete-checkbox {
+            display: none;
+        }
+
+        /* Style the delete button */
+        .delete-btn {
+            cursor: pointer;
+            font-size: 18px;
+            color: red;
+        }
+
+            .delete-btn:hover {
+                color: darkred;
+            }
+
+        /* When the checkbox is checked, hide the corresponding item */
+        .delete-checkbox:checked + .delete-btn + p {
+            display: none;
+        }
+
+        /* Hide the entire item (label, delete button, and text) */
+        .delete-checkbox:checked  .wishlist-item1{
+            display: none;
+        }
+
+    </style>
+    
+</head>
+<body class="register-body">
+    <div class="wishlist">
+        <div class="wishlist-item">
+            <input type="checkbox" id="delete1" class="delete-checkbox">
+            <label for="delete1" class="delete-btn">🗑️</label>
+            <p>Item 1</p>
+        </div>
+
+        <div class="wishlist-item1">
+            <input type="checkbox" id="delete2" class="delete-checkbox">
+            <label for="delete2" class="delete-btn">🗑️</label>
+            <p>Item 2</p>
+        </div>
+
+        <div class="wishlist-item">
+            <input type="checkbox" id="delete3" class="delete-checkbox">
+            <label for="delete3" class="delete-btn">🗑️</label>
+            <p>Item 3</p>
+        </div>
+    </div>
+
+</body>
+</html>

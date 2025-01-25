@@ -11,7 +11,7 @@
      right:0;
      bottom:0;
      background-color : white;
-     /*z-index:10;*/
+     z-index:10;
 
  }
  nav hr{
@@ -64,7 +64,7 @@
      margin-left:20px;
  }
  .trending{
-     margin-left: 300px;;
+     margin-left: 300px;
  }
  .nav-item-bottom:hover{
      text-decoration:underline 2px;
@@ -548,7 +548,6 @@ footer .contact-info h4{
     height:500px;
     position:relative;
     left:-10px;
-    z-index:-1;
     top:190px;
     padding-top:50px;
     padding-left:155px;
@@ -569,14 +568,11 @@ footer .contact-info h4{
     background-color: darkgray;
     padding-left: 100px;
     padding-top: 30px;
-   
 }
 .contact-section1 div h2{
     text-align:center;
     font-weight:bold;
     font-size:30px;
-   
-
 }
 .contact-footer{
     position:relative;
@@ -588,9 +584,7 @@ footer .contact-info h4{
     margin-left:80px;
     font-size:20px;
     font-weight:bold;
-    font-family:'Times New Roman', Times, serif;
-   
-    
+    font-family:'Times New Roman', Times, serif; 
 }
 .contact-us-info a{
     text-decoration:none;
@@ -600,8 +594,7 @@ footer .contact-info h4{
     margin-left:20px;
 }
 .address{
-    display:inline;
-    
+    display:inline;    
 }
 .feel-free-contact{
     margin-left:30px;
@@ -640,13 +633,14 @@ footer .contact-info h4{
     margin-top:55px;
 }
 
-.userlogin-section1{
-    width:100vw;
-    position:relative;
-    height:140px;
-    left:-10px;
-    border:2px solid green;
-
+.userlogin-section1 {
+    width: 100vw;
+    position: relative;
+    height: 120px;
+    left: -10px;
+}
+.userlogin-body{
+    background-color:#f5f5f5;
 }
 .userlogin-section1 h5{
     display:inline;
@@ -662,5 +656,205 @@ footer .contact-info h4{
 .userlogin-section1 a:visited{
     color:gray;
 }
+.userlogin-section1-div1 {
+    width: 50px;
+    height: 50px;
+    margin-left:20px;
+    margin-top:20px;
+   
+   
+}
+.userlogin-section2 {
+    width: 98vw;
+    height: 548px;
+    margin-top: 40px;
+    position: relative;
+    left: 0;
+    right: 0;
+    background-color: #B9BABB;
+    padding-top: 30px;
+}
+.userlogin-section2 h2{
+    text-align:center;
+}
+.loginform{
+    width:60%;
+    height:400px;
+    margin-left:300px;
+}
+.em-input,.pwd-input{
+    width:400px;
+    height:30px;
+}
+#remember-me{
+   margin-right:8px;
+    font-size:12px;
+}
+.new-user{
+    font-size:12px;
+    text-decoration:none;
+}
+.new-user:link{
+    color:black;
+}
+.new-user:visited {
+    color: black;
+}
+.forgot-password{
+    text-decoration:none;
+    margin-left:210px;
+}
+.forgot-password:link{
+color:black;
+}
+.forgot-password:visited{
+    color:black;
+}
+.forgot-password:hover{
+    text-decoration:underline;
+}
+.login-button {
+    background-color: limegreen;
+    color: white;
+    height: 25px;
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+}
+.or{
+    font-weight:bold;
+}
+.google-text, .apple-text {
+    display: inline;
+   position:relative;
+   top:5px;
+   margin-right:100px;
+}
+.google, .apple {
+    width: 400px;
+    height: 30px;
+}
+.google img{
+    float:left;
+    margin-top:5px;
+    margin-left:100px;
+}
+.apple img {
+    float: left;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.userlogin-section1-home{
+    left:100px;
+    position:relative;
+}
+.register-header{
+    width:100vw;
+    height:100px;
+    position:relative;
+    left:-10px;
+    top:-5px;
+}
+.register-section1 {
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    left: -10px;
+}
+.register-section2 {
+    width: 88vw;
+    height: 450px;
+    position: relative;
+    left: -10px;
+    padding: 80px;
+    background-color: #B9BABB;
+}
+.register-section2-signup {
+    width: 40%;
+    height: 450px;
+    margin-left: 700px;
+    border-radius: 20px;
+    background-color:#f5f5f5;
+    margin-top:-30px;
+}
+.userlogin-section1-home a{
+    text-decoration:none;
+}
+.userlogin-section1-home a:link{
+    color:gray;
+}
+.userlogin-section1-home a:visited {
+    color: gray;
+}
+.signup-heading{
+    font-weight:bold;
+    margin-top:30px;
+    font-size:25px;
+}
+.signup-form form input{
+    height:25px;
+}
+.em-ph{
+    width:400px;
+    width:350px;
+}
+.register-body{
+    background-color:#f5f5f5;
+}
+
+/* .carousel-images{
+     display: flex;
+     animation: slide 10s infinite;
+     
+ }
+ .carousel-images img{
+     width:100vw;
+     height: 300px;
+     flex-shrink: 0;
+ }
+ @keyframes slide{
+     0%,25%{transform: translateX(0);}
+     30%,57%{transform: translateX(-100%);}
+     62%,90%{transform: translateX(-200%);}
+     95%,100%{transform: translateX(0);}
+ }*/
 
 
+
+.register-section2-slideshow {
+    width: 40%;
+    height: 450px;
+    float: left;
+    margin-left: 150px;
+    border-radius: 20px;
+    display: flex;
+    animation: signup 20s infinite ease-in-out;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes signup{
+    0% {
+        background-image: url("../images/slideshow/sl1.jpg");
+    }
+    30% {
+        background-image: url("../images/slideshow/sl2.jpg");
+    }
+    60% {
+        background-image: url("../images/slideshow/sl3.jpg");
+    }
+    100% {
+        background-image: url("../images/slideshow/sl4.jpg");
+    }
+    
+}
+.more {
+    position: relative;
+    font-size: 12px;
+    font-weight:bold;
+    font-family: "Open Sans", sans-serif;
+    position:relative;
+    top:10px;
+    border:none;
+    width:60px;
+    height:20px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch</title>
+    <style>
+        /* Hide the checkbox input, it's used for controlling the visibility */
+        .toggle-checkbox {
+            display: none;
+        }
+
+        /* Style for the toggle label (the image/icon) */
+        .toggle-label {
+            cursor: pointer;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        /* The div that will be toggled */
+        .toggle-div {
+            background-color: lightgray;
+            padding: 20px;
+            margin-top: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        /* Hide the div when the checkbox is checked */
+        .toggle-checkbox:checked + .toggle-label + .toggle-div {
+            display: none;
+        }
+
+    </style>
+</head>
+<body class="register-body">
+    <div class="container">
+        <!-- Checkbox to control visibility -->
+        <input type="checkbox" id="toggle" class="toggle-checkbox" />
+
+        <!-- Image/Icon that will toggle the checkbox -->
+        <label for="toggle" class="toggle-label">
+            <img src="your-image-or-icon.png" alt="Toggle" />
+        </label>
+
+        <!-- Div that will be toggled (hidden or shown) -->
+        <div class="toggle-div">
+            <p>This div can be hidden or shown by clicking the image.</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Change with Timings</title>
+    <style>
+        .image-container {
+            width: 400px;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            animation: changeImages 10s infinite;
+        }
+
+        @keyframes changeImages {
+            0% {
+                background-image: url('sl1.jpg');
+            }
+
+            30% {
+                background-image: url('sl2.jpg');
+            }
+
+            70% {
+                background-image: url('sl3.jpg');
+            }
+
+            100% {
+                background-image: url('sl4.jpg');
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container"></div>
+</body>
+</html>
