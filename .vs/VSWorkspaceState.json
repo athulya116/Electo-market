@@ -4,9 +4,11 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\images",
+    "\\assets\\images\\laptops",
     "\\assets\\images\\slideshow",
+    "\\assets\\images\\smartwatches",
     "\\demos"
   ],
-  "SelectedNode": "\\wishlist.html",
+  "SelectedNode": "\\userlogin.html",
   "PreviewInSolutionExplorer": false
 }
