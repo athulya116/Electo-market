@@ -904,16 +904,16 @@ color:black;
     top:25px;
     margin-left:750px;
 }
-.wishlist-button{
-    background-color:limegreen;
-    color:white;
-    margin-top:40px;
-    border:none;
-    width:150px;
-    height:30px;
-    font-size:13px;
-    font-weight:bold;
-    border-radius:5px;
+.wishlist-button {
+    margin-top: 40px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 .wishlist-section2:hover {
     box-shadow: 2px 2px 10px rgb(190, 187, 187);
@@ -1189,4 +1189,135 @@ color:black;
     border-radius: 5px;
     border: none;
     margin-left:100px;
+}
+.payment-header{
+    width:100vw;
+    height:100px;
+    border:2px solid red;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:10;
+}
+.payment-section1{
+    width:55vw;
+    height:530px;
+    margin-left:150px;
+    margin-top:150px;
+    border-radius:20px;
+}
+.payment-ord-smry{
+    position:fixed;
+    top:150px;
+    height:530px;
+}
+.promo-code label{
+    font-size:15px;
+    font-weight:bold;
+}
+.promo-code{
+    text-align:center;
+    line-height:25px;
+}
+.promo-code input:focus {
+    box-shadow: 2px 2px 10px rgb(190, 187, 187); 
+}
+.payment-section1:hover{
+    box-shadow:2px 2px 10px rgb(190,187,187);
+}
+.billing-address{
+    width:35vw;
+    height:150px;
+    border-radius:10px;
+    left:50px;
+    position:relative;
+    top:50px;
+}
+.bil-address p{
+    display:inline;
+    font-size:13px;
+}
+.bil-address{
+    margin-left:100px;
+    margin-top:-20px
+}
+.payment-section2{
+    width:45vw;
+    height:100px;
+    position:relative;
+    top:10px;
+    left:50px;
+}
+.payment-section2 h4{
+    position:relative;
+    bottom:15px;
+}
+.payment-method label{
+    font-size:13px;
+    font-weight:bold;
+}
+.payment-method{
+    padding-left:50px;
+    position:relative;
+    top:-10px;
+}
+.cash-on-delivery-section {
+    display:none;
+    width: 45vw;
+    height: 150px;
+    border: 2px solid green;
+    margin-left: 50px;
+    position: relative;
+    top: -10px;
+}
+.upi-payment {
+    display: none;
+    width: 45vw;
+    height: 150px;
+    border: 2px solid purple;
+    position: relative;
+    left:-50px;
+    top:10px;
+}
+.card-payment-section {
+    display: none;
+    width: 45vw;
+    height: 150px;
+    border: 2px solid blue;
+    margin-left: 50px;
+    position: relative;
+    top: -10px;
+}
+.upi-payment-form label{
+    font-size:14px;
+    font-weight:bold;
+}
+.verify-button {
+    position: relative;
+    right: 200px;
+    top: 80px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.upi-paymentt:checked ~ .upi-payment{
+    display:block;
+}
+.upi-id{
+    margin-left:100px;
+    position:relative;
+        top:30px;
+}
+.upi-id-input{
+    position:relative;
+    top:30px;
+}
+.upi-id-select{
+    position:relative;
+    top:30px;
 }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch</title>
+    <link rel="stylesheet" href="assets\css\style.css" />
+</head>
+<body>
+<!-- ====== Header Section ====== -->
+    <header class="payment-header">
+        <img src="#logo" />
+    </header>
+<!-- ====== End of Header Section ====== -->
+<!-- ====== Section 1 ====== -->
+    <section class="payment-section1">
+        <div class="billing-address">
+            <h4>Billing Address</h4>
+            <div class="bil-address">
+                <p>
+                    Akshaya Bhavan Pottavila Perumpazhuthoor <br />
+                    Neyyattinkara ,
+                    Thiruvananthapuram ,
+                    Kerala .<br />
+                    <abbr title="pin-code"> 695126</abbr> <br />
+                    <abbr title="land-mark">Govt High School Perumpazhuthoor</abbr>
+
+                </p>
+            </div>
+        </div>
+        <!-- ======  Payment section 2 ====== -->
+        <section class="payment-section2">
+            <h4>Payment Method</h4>
+            <form class="payment-method">
+                <input type="radio" name="pmt-method" id="cash-on-delivery" />
+                <label for="cash-on-delivery">Cash on delivery</label> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+
+                <input type="radio" name="pmt-method" class="upi-paymentt" />
+                <label for="upi-payment">Upi Payment</label>  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+
+                <input type="radio" name="pmt-method" id="card-payment" />
+                <label for="card-payment">Card Payment</label>
+
+                <!-- ====== upi-payment Section ======   -->
+                <section class="upi-payment">
+                    <form class="upi-payment-form">
+                        <label for="upi-id" class="upi-id">Enter Upi Id</label>
+                        <input type="text" class="upi-id-input"/>
+                        <select class="upi-id-select">
+                            <option>@okhdfcbank</option>
+                            <option>@okcici</option>
+                            <option>@okaxis</option>
+                        </select>
+                    </form>
+                    <button class="verify-button" onclick="alert('Verification Success')">Verify</button>
+                </section>
+                <!-- ====== End of upi-payment Section ====== -->
+
+            </form>
+        </section>
+        <!-- ======  End of Payment section 2 ====== -->
+
+
+        <!-- ====== Cash on delivery Section ======   -->
+        <section class="cash-on-delivery-section">
+        </section>
+        <!-- ====== End of Cash on delivery Section ====== -->
+
+
+        
+
+
+        <!-- ====== card-payment-section ======   -->
+        <section class="card-payment-section">
+        </section>
+        <!-- ====== End of card-payment-section ====== -->
+
+    </section>
+<!-- ====== End of Section 1 ====== -->
+    
+
+    <!-- ====== Section 2 ====== -->
+    <section class="cart-section2 payment-ord-smry">
+        <h2 class="order-summary">Order Summary</h2>
+        <hr class="hr2" />
+        <br /> <br /> <br />
+        <h4>Item Count : 5</h4>
+        <h4> Product Price : 3,69,618 rs</h4>
+        <h4>Shipping Charge : 350 rs</h4>
+        <h4>Gst : 7392 rs</h4>
+        <h4>Total : 3,77,360 rs</h4>
+        <br />
+        <form class="promo-code">
+            <label for="p-code">Apply promo code</label> <br />
+            <input type="text"  /> <br /> <br />
+            <button class="apply-button" onclick="alert('Succesfully Applied your promo code.')">Apply</button>
+        </form>
+    </section>
+    <!-- ====== End of Section 2 ======-->
+</body>
+</html>

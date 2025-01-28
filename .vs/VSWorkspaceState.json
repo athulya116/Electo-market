@@ -3,12 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\images",
-    "\\assets\\images\\laptops",
-    "\\assets\\images\\slideshow",
-    "\\assets\\images\\smartwatches",
+    "\\assets\\icons",
     "\\demos"
   ],
-  "SelectedNode": "\\userlogin.html",
+  "SelectedNode": "\\payment.html",
   "PreviewInSolutionExplorer": false
 }
