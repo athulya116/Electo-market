@@ -1375,7 +1375,6 @@ color:black;
 .success-section{
     width:65vw;
     height:550px;
-    border:2px solid purple;
     position:relative;
     top:150px;
     left:220px;
@@ -1390,7 +1389,6 @@ color:black;
 .success-first-checked-icon{
     width:20vw;
     height:70px;
-    border:2px solid red;
     margin-left:300px;
 }
 .success-first-checked-icon img{
@@ -1401,7 +1399,6 @@ color:black;
 .success-section-content{
     width:55vw;
     height:200px;
-    border:2px solid blue;
     margin-left:70px;
 }
 .success-section-content{
@@ -1418,7 +1415,6 @@ color:black;
 .order-design{
     width:55vw;
     height:270px;
-    border:2px solid olive;
     margin-left:70px;
 }
 .order-design h4{
@@ -1431,16 +1427,65 @@ color:black;
 .order-design-diagram {
     width: 50vw;
     height: 200px;
-    border: 2px solid violet;
     margin-left: 35px;
     position: relative;
-    top: -40px;
+    top: -60px;
+    font-size:13px;
+    font-weight:bold;
+
 }
-.order-design-diagram hr{
-    width:650px;
-    height:1px;
-    border:none;
-    background-color:gray;
+.order-design-diagram h4{
     position:relative;
-    top:50px;
+    top:130px;
+    left:-80px;
+}
+.order-design-diagram h4 a{
+    text-decoration:none;
+}
+.order-design-diagram h4 a:link{
+    color:black;
+}
+.order-design-diagram h4 a:hover{
+    text-decoration:underline;
+    text-underline-offset:3px;
+}
+.order-design-diagram h4 a:visited{
+    color:black;
+}
+.order-design-diagram div {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 45px;
+    float: left;
+    border-radius: 50px;
+}
+.order-design-diagram div img{
+    width:30px;
+    height:30px;
+    border-radius:50px;
+    z-index:2;
+}
+.order-confirmed {
+    left: 30px;
+}
+.shipped{
+    left:150px;
+}
+.in-transit{
+    left:270px;
+}
+.out-for-delivery{
+    left:400px;
+}
+.delivered{
+    left:515px;
+}
+.border-top{
+    width:625px;
+    height:10px;
+    border-top:2px solid gray;
+    position:relative;
+    top:35px;
+    left:70px;
 }
