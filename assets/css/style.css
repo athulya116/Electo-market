@@ -1265,16 +1265,15 @@ color:black;
     display:none;
     width: 45vw;
     height: 150px;
-    border: 2px solid green;
     margin-left: 50px;
     position: relative;
-    top: -10px;
+    left:-100px;
+    top:10px;
 }
 .upi-payment {
     display: none;
     width: 45vw;
     height: 150px;
-    border: 2px solid purple;
     position: relative;
     left:-50px;
     top:10px;
@@ -1283,19 +1282,28 @@ color:black;
     display: none;
     width: 45vw;
     height: 150px;
-    border: 2px solid blue;
-    margin-left: 50px;
     position: relative;
-    top: -10px;
+    left:-50px;
+    top: 10px;
+}
+.upi-paymentt:checked ~ .upi-payment {
+    display: block;
+}
+
+.card-paymentt:checked ~ .card-payment-section {
+    display: block;
+}
+#cash-on-delivery:checked ~ .cash-on-delivery-section{
+    display:block;
 }
 .upi-payment-form label{
     font-size:14px;
     font-weight:bold;
 }
+
 .verify-button {
     position: relative;
-    right: 200px;
-    top: 80px;
+    top: 60px;
     background-color: limegreen;
     color: white;
     border: none;
@@ -1304,14 +1312,24 @@ color:black;
     font-size: 13px;
     font-weight: bold;
     border-radius: 5px;
+    left:260px;
 }
-.upi-paymentt:checked ~ .upi-payment{
-    display:block;
-}
-.upi-id{
-    margin-left:100px;
+.apply-button {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
     position:relative;
-        top:30px;
+    top:-10px;
+}
+.upi-id {
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
 }
 .upi-id-input{
     position:relative;
@@ -1320,4 +1338,109 @@ color:black;
 .upi-id-select{
     position:relative;
     top:30px;
+}
+.card-payment-form{
+    position:relative;
+    left:150px;
+    top:20px;
+}
+.date{
+    width:50px;
+    height:15px;
+}
+.name-on-card{
+    width:350px;
+}
+.label-date{
+    margin-left:60px;
+}
+.cash-on-delivery-section h2{
+    font-family:'Times New Roman', Times, serif;
+    margin-left:130px;
+    margin-top:55px;
+}
+.order-now-button {
+    position: fixed;
+    top: 550px;
+    left: 450px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.success-section{
+    width:65vw;
+    height:550px;
+    border:2px solid purple;
+    position:relative;
+    top:150px;
+    left:220px;
+    background-color:white;
+}
+.success-body{
+    background-color:#f5f5f5;
+}
+.success-section:hover {
+    box-shadow: 2px 2px 10px rgb(190,187,187);
+}
+.success-first-checked-icon{
+    width:20vw;
+    height:70px;
+    border:2px solid red;
+    margin-left:300px;
+}
+.success-first-checked-icon img{
+    height:70px;
+    width:70px;
+    margin-left:120px;
+}
+.success-section-content{
+    width:55vw;
+    height:200px;
+    border:2px solid blue;
+    margin-left:70px;
+}
+.success-section-content{
+    text-align:center;
+    line-height:25px;
+}
+.success-section-content h4{
+    font-family:'Times New Roman', Times, serif;
+    font-size:16px;
+}
+.success-section-content h1{
+    font-size:40px;
+}
+.order-design{
+    width:55vw;
+    height:270px;
+    border:2px solid olive;
+    margin-left:70px;
+}
+.order-design h4{
+    font-size:16px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    position:relative;
+    top:-20px;
+}
+.order-design-diagram {
+    width: 50vw;
+    height: 200px;
+    border: 2px solid violet;
+    margin-left: 35px;
+    position: relative;
+    top: -40px;
+}
+.order-design-diagram hr{
+    width:650px;
+    height:1px;
+    border:none;
+    background-color:gray;
+    position:relative;
+    top:50px;
 }

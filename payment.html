@@ -31,21 +31,45 @@
         <!-- ======  Payment section 2 ====== -->
         <section class="payment-section2">
             <h4>Payment Method</h4>
-            <form class="payment-method">
-                <input type="radio" name="pmt-method" id="cash-on-delivery" />
+            <section class="payment-method">
+                <input type="radio" name="pmt-method" id="cash-on-delivery" checked />
                 <label for="cash-on-delivery">Cash on delivery</label> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
 
                 <input type="radio" name="pmt-method" class="upi-paymentt" />
                 <label for="upi-payment">Upi Payment</label>  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
 
-                <input type="radio" name="pmt-method" id="card-payment" />
+                <input type="radio" name="pmt-method" class="card-paymentt" />
                 <label for="card-payment">Card Payment</label>
 
+
+                <!-- ====== Cash on Delivery Section ====== -->
+                <section class="cash-on-delivery-section">
+                    <h2>Pay when your order arrives at Home.</h2>
+                </section>
+                <!-- ====== End of Delivery Section ====== -->
+
+                <!-- ====== card-payment-section ======   -->
+                <section class="card-payment-section">
+                    <form class="card-payment-form">
+                        <input type="text" placeholder="Name on Card" class="name-on-card" /><br /> <br />
+                        <input type="text" placeholder="Card Number" />
+                        <input type="text" placeholder="CVV code" />  <br /><br />
+
+                        <label for="expirationn-date" class="label-date">Expiration date</label>
+                        <input type="number" placeholder="MM" class="date" /> /
+                        <input type="number" placeholder="YY" class="date" /><br /> <br />
+
+
+
+                    </form>
+                </section>
+                <!-- ====== End of card-payment-section ====== -->
+
                 <!-- ====== upi-payment Section ======   -->
-                <section class="upi-payment">
+                <div class="upi-payment">
                     <form class="upi-payment-form">
                         <label for="upi-id" class="upi-id">Enter Upi Id</label>
-                        <input type="text" class="upi-id-input"/>
+                        <input type="text" class="upi-id-input" />
                         <select class="upi-id-select">
                             <option>@okhdfcbank</option>
                             <option>@okcici</option>
@@ -53,27 +77,14 @@
                         </select>
                     </form>
                     <button class="verify-button" onclick="alert('Verification Success')">Verify</button>
-                </section>
+                </div>
                 <!-- ====== End of upi-payment Section ====== -->
 
-            </form>
+                <a href="success.html"><button class="order-now-button">Order Now</button></a>
+
+            </section>
         </section>
         <!-- ======  End of Payment section 2 ====== -->
-
-
-        <!-- ====== Cash on delivery Section ======   -->
-        <section class="cash-on-delivery-section">
-        </section>
-        <!-- ====== End of Cash on delivery Section ====== -->
-
-
-        
-
-
-        <!-- ====== card-payment-section ======   -->
-        <section class="card-payment-section">
-        </section>
-        <!-- ====== End of card-payment-section ====== -->
 
     </section>
 <!-- ====== End of Section 1 ====== -->
