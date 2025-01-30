@@ -1489,3 +1489,24 @@ color:black;
     top:35px;
     left:70px;
 }
+.laptop-section1{
+    width:100vw;
+    height:200px;
+    border:2px solid violet;
+    position:absolute;
+    left:0;
+    top:120px;
+}
+.laptop-section1-quote{
+    width:80vw;
+    height:70px;
+    position:relative;
+    left:100px;
+    border:2px solid limegreen;
+    top:5px;
+    text-align:center;
+    font-weight:bold;
+    font-size:40px;
+    padding-top:100px;
+
+}

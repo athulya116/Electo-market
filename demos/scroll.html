@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Gadgets</title>
+    <style>
+        /* Basic reset and layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        header {
+            position: relative;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        /* Make the navbar sticky */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* Dropdown button styles */
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .dropdown-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+            .dropdown-btn:hover {
+                background-color: #45a049;
+            }
+
+        /* Dropdown menu styles */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        /* Show the dropdown menu when hovering the dropdown button */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Optional: Adjust the content's padding to avoid overlapping with the sticky navbar */
+        main {
+            margin-top: 50px; /* Adjust this margin if needed based on your navbar height */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <nav class="navbar">
+                <div class="dropdown">
+                    <button class="dropdown-btn">Categories</button>
+                    <div class="dropdown-content">
+                        <a href="#">Smartphones</a>
+                        <a href="#">Laptops</a>
+                        <a href="#">Headphones</a>
+                        <a href="#">Accessories</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>Welcome to our Electronic Gadgets Store</h1>
+                <p>Scroll down to see more categories and gadgets.</p>
+                <div style="height: 1500px;"></div> <!-- Just to create scrollable content -->
+            </section>
+        </main>
+    </div>
+</body>
+</html>
