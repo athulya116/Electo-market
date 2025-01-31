@@ -3,114 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronic Gadgets</title>
+    <title>Sticky Content Below Header</title>
     <style>
-        /* Basic reset and layout */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .content {
-            padding: 20px;
-        }
-
-        header {
-            position: relative;
-        }
-
-        .navbar {
-            background-color: #333;
-            padding: 10px 20px;
-        }
-
-        /* Make the navbar sticky */
-        .navbar {
-            position: sticky;
+        /* Header Section - Fixed at top */
+        .home-header {
+            position: fixed; /* Makes the header fixed at the top */
             top: 0;
-            z-index: 100;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* So that the header stays above other content */
+            background-color: white; /* Optional for better visibility */
+            padding: 20px; /* Adjust as per your design */
         }
 
-        /* Dropdown button styles */
-        .dropdown {
-            display: inline-block;
-            position: relative;
+        /* Category Section - Sticky but stops when it touches the header */
+        .category-section {
+            width: 100vw;
+            height: 50px;
+            border: 2px solid indigo;
+            position: sticky;
+            top: 80px; /* Adjust this value based on the height of your header */
+            left: 0;
+            z-index: 999; /* Ensures the sticky section stays below the header */
+            background-color: white; /* Optional to ensure visibility */
         }
 
-        .dropdown-btn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-
-            .dropdown-btn:hover {
-                background-color: #45a049;
-            }
-
-        /* Dropdown menu styles */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f1f1f1;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
-
-            .dropdown-content a {
-                color: black;
-                padding: 12px 16px;
-                text-decoration: none;
-                display: block;
-            }
-
-                .dropdown-content a:hover {
-                    background-color: #ddd;
-                }
-
-        /* Show the dropdown menu when hovering the dropdown button */
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        /* Optional: Adjust the content's padding to avoid overlapping with the sticky navbar */
-        main {
-            margin-top: 50px; /* Adjust this margin if needed based on your navbar height */
-        }
+            /* Styling for the list inside category section */
 
     </style>
 </head>
 <body>
-    <div class="content">
-        <header>
-            <nav class="navbar">
-                <div class="dropdown">
-                    <button class="dropdown-btn">Categories</button>
-                    <div class="dropdown-content">
-                        <a href="#">Smartphones</a>
-                        <a href="#">Laptops</a>
-                        <a href="#">Headphones</a>
-                        <a href="#">Accessories</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <header class="home-header">
+        Fixed Header
+    </header>
 
-        <main>
-            <section>
-                <h1>Welcome to our Electronic Gadgets Store</h1>
-                <p>Scroll down to see more categories and gadgets.</p>
-                <div style="height: 1500px;"></div> <!-- Just to create scrollable content -->
-            </section>
-        </main>
+    <div class="div-between">
+        Content between the header and the sticky div (this won't be visible when scrolling).
+    </div>
+
+    <div class="div-content">
+        This content will stay sticky after scrolling past the header and the div in between.
+    </div>
+
+    <div class="other-content">
+        More content to scroll...
     </div>
 </body>
 </html>

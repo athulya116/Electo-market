@@ -342,13 +342,13 @@ footer .contact-info h4{
     font-weight: bold;
 }
 .best-selling-tablets{
-    margin-top:160px;
+    margin-top:200px;
     width:100vw;
     height:80px;
     margin-bottom:-140px;
 }
 .best-selling-smartwatches{
-    margin-top:240px;
+    margin-top:280px;
     width:100vw;
     height:80px;
     position:relative;
@@ -459,7 +459,7 @@ footer .contact-info h4{
     right:0;
     margin-top:120px;
     width:94%;
-    height:350px;
+    height:300px;
     padding-top:30px;
     padding-left:80px;
     z-index:-1;
@@ -484,7 +484,7 @@ footer .contact-info h4{
     right: 0;
     margin-top: 100px;
     width: 98%;
-    height: 350px;
+    height: 300px;
     padding-top: 30px;
     padding-left: 20px;
     z-index: -1;
@@ -1491,8 +1491,7 @@ color:black;
 }
 .laptop-section1{
     width:100vw;
-    height:200px;
-    border:2px solid violet;
+    height:180px;
     position:absolute;
     left:0;
     top:120px;
@@ -1502,11 +1501,46 @@ color:black;
     height:70px;
     position:relative;
     left:100px;
-    border:2px solid limegreen;
     top:5px;
     text-align:center;
     font-weight:bold;
     font-size:40px;
     padding-top:100px;
-
+}
+.laptop-best-selling-laptops {
+    position: absolute;
+    top:300px;
+}
+.laptop-body{
+    background-color:#f5f5f5;
+}
+.smartphone-footer{
+    top:400px;
+}
+.logo-div{
+    width:70px;
+    height:70px;
+    position:relative;
+    z-index:15;
+    left:30px;
+    top:8px;
+    background-size:cover;
+    float:left;
+}
+.logo-text{
+    width:300px;
+    height:70px;
+    position:relative;
+    z-index:15;
+    left:100px;
+    top:8px;
+}
+.logo-text h4{
+    display:inline;
+    position:relative;
+    left:-70px;
+    top:30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:30px;
 }
